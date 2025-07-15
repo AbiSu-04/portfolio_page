@@ -59,7 +59,7 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "AbiSu-04", //i.e."johnDoe12Gh"
-  reposLength: 3,
+  reposLength: 0,
   specificRepos: ["app_new","Medical-Supply-Management","SPD_BACKEND","SPD_frontend","Skill-Sculpt"],
 };
 
