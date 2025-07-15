@@ -128,13 +128,18 @@ const experiences = {
   heading: "Experiences",
   data: [
     {
-      role: 'Edge AI Developer Intern',// Here Add Company Name
+      role: 'Edge AI Developer Intern',
       companylogo: require('../assets/img/LOGO(2).png'),
       date: 'May 2025 – July 2025',
+      logoStyle: {
+        width: '60px',
+        height: '60px',
+        objectFit: 'contain',
+      }
     },
-   
   ]
 };
+
 
 // Blog SECTION
 // const blog = {
