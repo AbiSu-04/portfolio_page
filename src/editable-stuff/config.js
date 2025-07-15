@@ -59,8 +59,8 @@ const repos = {
   show: true,
   heading: "Recent Projects",
   gitHubUsername: "AbiSu-04", //i.e."johnDoe12Gh"
-  reposLength: 0 ,
-  specificRepos: ["Local-Tourism","Medical-Supply-Management","SPD_BACKEND","SPD_frontend","Skill-Sculpt"],
+  reposLength: 1,
+  specificRepos: ["app_new","Medical-Supply-Management","SPD_BACKEND","SPD_frontend","Skill-Sculpt"],
 };
 
 // Leadership SECTION
