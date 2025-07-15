@@ -99,6 +99,10 @@ const skills = {
     { name: "Flask", value: 70 },
     { name: "MySQL", value: 70 },
     { name: "FastAPI", value: 50 },
+    { name: "Data Analysis", value: 75},
+    { name: "R", value: 60},
+    { name: "Tableau", value: 60},
+    { name: "AI/ML", value: 70},
   ],
   softSkills: [
     { name: "Collaboration", value: 70 },
@@ -120,19 +124,15 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
+  show: true,
   heading: "Experiences",
   data: [
     {
-      role: 'Research Trainee',// Here Add Company Name
-      companylogo: require('../assets/img/LOGO(1).png'),
-      date: 'August 2021 – June 2022',
+      role: 'Edge AI Developer Intern',// Here Add Company Name
+      companylogo: require('../assets/img/LOGO(2).png'),
+      date: 'May 2025 – July 2025',
     },
-    {
-      role: 'Intern',
-      companylogo: require('../assets/img/logo_1(1).png'),
-      date: 'Janurary 2021 – April 2021',
-    },
+   
   ]
 };
 
