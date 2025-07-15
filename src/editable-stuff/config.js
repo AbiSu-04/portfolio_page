@@ -5,23 +5,26 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Suriya",
+  gradientColors: "#4484ce, #1ad7c0, #ff7f7f",
+  firstName: "Abinaya",
   middleName: "",
   lastName: "Suresh",
-  message: "Robotics Engineer, Researcher, Tinkerer",
+  message: "Computer Engineer, Researcher",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/theunknowninfinite",
+      url: "https://github.com/AbiSu-04",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/suriya-suresh/",
+      url: "https://www.linkedin.com/in/abinaya-suresh-050779289/",
     },
   ],
 };
 
+// #ff9b11,
+// #9b59b6,
+// #ecf0f1
 // ABOUT SECTION
 // If you want the About Section to show a profile picture you can fill the profilePictureLink either with:
 //a) your Instagram username
@@ -42,9 +45,9 @@ const about = {
   imageLink: require("../editable-stuff/images.png"),
   imageSize: 375,
   message:
-    "I'm a grad student doing his Master of Engineering in Robotics at the University of Maryland, College Park. Focused on pursing a career in Autonmous Vechicles and self-driving cars. Interested in computer vision, simulation and mapping.Passionate in learning and trying to be the best I can be. Avid Tech enthusiast and Petrolhead",
+    "A STEM student pursuing undergraduate in Bachelors of Computer Engineering at PSG College of Technology, India. Passionate about continuous learning and exploring new opportunities in Data Analytics, Machine Learning.",
   // resume: require("../editable-stuff/resume_github.pdf"),
-  resume: "https://drive.google.com/file/d/1BAzfgIpKKatnuIZ8xzF8dr3ocPXyP6Jb/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1_zYfu76eFSdsiIZYHwLtJ2pxilxNxZl4/view?usp=sharing",
 };
 
 // PROJECTS SECTION
@@ -55,9 +58,9 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "theunknowninfinite", //i.e."johnDoe12Gh"
-  reposLength: 1 ,
-  specificRepos: ["Meta-Learning-For-INR","3D_mapping_and_Object_Segmentation","Modeling-and-Simulation-of-Martian-Rover"],
+  gitHubUsername: "AbiSu-04", //i.e."johnDoe12Gh"
+  reposLength: 0 ,
+  specificRepos: ["Local-Tourism","Medical-Supply-Management","SPD_BACKEND","SPD_frontend","Skill-Sculpt"],
 };
 
 // Leadership SECTION
@@ -90,11 +93,12 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 75 },
-    { name: "C++", value: 70 },
-    { name: "Linux", value: 70 },
-    { name: "ROS", value:50 },
-    { name: "Matlab", value: 50 },
-    { name: "Solidworks", value: 65 },
+    { name: "C", value: 65 },
+    { name: "Java", value: 60 },
+    { name: "Linux", value:65 },
+    { name: "Flask", value: 70 },
+    { name: "MySQL", value: 70 },
+    { name: "FastAPI", value: 50 },
   ],
   softSkills: [
     { name: "Collaboration", value: 70 },
@@ -111,12 +115,12 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "Get in touch with me via email at theogsuriyas[AT]gmail[DOT]com",
-  // email: "theogsuriyas[AT]gmail[DOT]com",
+    "Get in touch with me via email at sureshabinaya04[AT]gmail[DOT]com",
+  // email: "sureshabinaya04[AT]gmail[DOT]com",
 };
 
 const experiences = {
-  show: true,
+  show: false,
   heading: "Experiences",
   data: [
     {
