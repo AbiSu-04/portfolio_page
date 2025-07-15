@@ -132,13 +132,15 @@ const experiences = {
       companylogo: require('../assets/img/LOGO(2).png'),
       date: 'May 2025 – July 2025',
       logoStyle: {
-        width: '60px',
-        height: '60px',
+        width: '100px',
+        height: 'auto',
         objectFit: 'contain',
+        marginBottom: '10px'
       }
     },
   ]
 };
+
 
 
 // Blog SECTION
