@@ -47,7 +47,7 @@ const about = {
   message:
     "A STEM student pursuing undergraduate in Bachelors of Computer Engineering at PSG College of Technology, India. Passionate about continuous learning and exploring new opportunities in Data Analytics, Machine Learning.",
   // resume: require("../editable-stuff/resume_github.pdf"),
-  resume: "https://drive.google.com/file/d/1_zYfu76eFSdsiIZYHwLtJ2pxilxNxZl4/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1Vh2_uGqW2WXTRLfuV6zjsA21FcJSX86Q/view?usp=sharing",
 };
 
 // PROJECTS SECTION

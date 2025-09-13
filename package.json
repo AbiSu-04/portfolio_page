@@ -31,7 +31,7 @@
     "eject": "react-scripts eject",
     "custom-deploy": "node pages.js"
   },
- "engines": {
+  "engines": {
     "node": ">=18.13.0",
     "npm": ">=8.11.0"
   },
